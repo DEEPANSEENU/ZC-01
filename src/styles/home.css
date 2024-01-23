@@ -1,0 +1,284 @@
+.body {
+  position: relative;
+}
+
+.homeImage {
+  height: 450px;
+  width: 100%;
+}
+
+.topSection {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 99px;
+  height: 99px;
+  margin: auto;
+  padding: 24px;
+  border: solid 1px #707070;
+  background-color: #fff;
+  border-radius: 50%;
+  font-family: Poppins;
+  font-size: 70px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.5;
+  letter-spacing: normal;
+  color: #eb2929;
+  top: 60px !important;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bi-search {
+  font-size: 20px;
+}
+
+.headerText {
+  height: 51px;
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.searchOptions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationBox {
+  flex: 1;
+  max-width: 350px; /* Adjusted max-width for better compatibility */
+  height: 45px;
+  margin: 0 450px 0 0; /* Adjusted margin */
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.searchIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.bi-search {
+  font-size: 20px;
+}
+
+.searchInput {
+  flex: 1;
+  height: 45px;
+  margin: 10px 100px; /* Adjusted margin for better alignment */
+  padding: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  width: 100%; /* Set width to 100% for responsiveness */
+  max-width: 300px; /* Set a maximum width for better compatibility */
+}
+
+.borderSection {
+  margin: 50px 20px 80px 20px; /* Adjusted margin for better alignment */
+}
+
+.qs-heading {
+  height: 43px;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.qs-subheading {
+  height: 25px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+}
+
+.qs-boxes-container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qs-box {
+  width: calc(33.333% - 20px);
+  margin-right: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.qs-box-contents {
+  height: 160px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+  position: relative;
+}
+
+.qs-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 28px 0 0;
+}
+
+.qs-item-heading {
+  position: absolute;
+  top: 30px; /* Adjust the top spacing as needed */
+  left: 160px; /* Adjust the left spacing as needed */
+  height: 25px;
+  font-family: Poppins;
+  font-size: 16px; /* Increase the font size for better readability */
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+
+.qs-item-description {
+  position: absolute;
+  top: 70px; /* Adjust the top spacing as needed */
+  left: 160px; /* Adjust the left spacing as needed */
+  max-width: 190px;
+  font-family: Poppins;
+  font-size: 14px; /* Increase the font size for better readability */
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+  margin-bottom: 8px; /* Added margin-bottom */
+}
+
+li {
+  list-style: none;
+  background-color: lightgray;
+  background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+  padding: 10px 15px 10px 25px;
+  border: 1px solid #CCC;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box; cursor: pointer;
+  border-radius: 3px;
+}
+
+#query {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 19px;
+  padding: 5px;
+  font-family: calibri light;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: lightgray;
+  color: gray;
+  padding-left: 29px;
+}
+
+#notebooks {
+  position: absolute;
+  left: 38%;
+  width: 370px;
+  border-radius: 5px;
+  max-height: 450px;
+}
+
+ul {
+  margin: 0 auto; 
+  padding: 0;
+  max-height: 390px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px 5px 0 5px;
+  border-left: none;
+  border-right: none;
+}
+
+#notebooks span {
+  display: block;
+  position: absolute;
+  background:#FFD32E;
+  bottom: -35px;
+  left: -1px;
+  width: 360px;
+  border-radius:5px 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .locationBox {
+    width: 100%;
+    max-width: 100%; /* Allow the location box to take full width */
+    margin: 10px 0;
+  }
+
+  .searchBox {
+    display: block;
+    text-align: center;
+  }
+
+  .searchIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .searchInput {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .qs-box {
+    width: calc(50% - 20px);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .qs-box {
+    width: calc(50% - 20px);
+  }
+}
